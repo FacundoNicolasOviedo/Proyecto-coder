@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--En el html le cambie el idioma a español-->
+<html lang="es">
+    <!--En el head puse el titulo de la pagina y linkie el css como asi tambien el kit de fontawesome para poder poner los iconos en el footer-->
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ninjas in Pyjamas</title>
+        <link rel="stylesheet" href="./css/estilos.css">
+        <script src="https://kit.fontawesome.com/9cc44facb7.js" crossorigin="anonymous"></script>
+    </head>
+    <!--En el body agregue el logo de la pagina y cree los lista item para poder navegar en las distantas paginas de mi sitio web-->
+    <body>
+        <header class="header">
+          <div>
+               <div class="header__contenedor">
+                  <a href="#"><img class="header__contenedor__logo" src= "./assets/img/logo_2-removebg-preview.png" alt="logo NIP"></a>
+               </div>
+               <nav class="header__navegacion">
+                  <ul class="header__navegacion__listaItems">
+                      <li class="header__navegacion__listaItems__listaItem"><a class="header__navegacion__listaItems__listaItem__linkNav"href="#">Inicio</a></li>
+                      <li class="header__navegacion__listaItems__listaItem"><a class="header__navegacion__listaItems__listaItem__linkNav"href="./page/equipo.html">Equipo</a></li>
+                      <li class="header__navegacion__listaItems__listaItem"><a class="header__navegacion__listaItems__listaItem__linkNav"href="./page/eventos.html">Eventos</a></li>
+                      <li class="header__navegacion__listaItems__listaItem"><a class="header__navegacion__listaItems__listaItem__linkNav"href="./page/noticias.html">Noticias</a></li>
+                      <li class="header__navegacion__listaItems__listaItem"><a class="header__navegacion__listaItems__listaItem__linkNav"href="./page/contacto.html">Contacto</a></li>                      
+                 </ul>
+             </nav>
+           </div>
+        </header>
+        <!--En el main agregue una breve historia del equipo con distanciamiento entre los parrafos y ademas puse los videos de youtube en la parte de "contenido"-->
+        <main>
+         <section>
+             <hr>
+             <h1 class="main__tituloMain"> NUESTRA HISTORIA</h1>
+              <p class="main__parrafoMain">
+                  Somos Ninjas in Pyjamas, decorado como uno de los mejores equipos de esports de la historia. Con nuestra base fundada en Estocolmo en el año 2000, somos el equipo mas grande de todo Suecia. 
+                  A lo largo de nuestra historia hemos conseguido consagrarnos en muchos torneos tier 1 de la escena siendo nuestro mayor logro el Major conseguido en el 2014 en la ciudad de Cologne. Con 22 torneos ganados totales somos uno de los equipos mas condecorados del mundo y nuestra filosofia se basa en el compañerismo y las ganas de seguir compitiendo al mejor nivel como equipo.
+                  Contamos con un equipo de profesionales que esta dispuesto a hacer todo lo que esté a su alcance para que los jugadores se sientan comodos y puedan competir a su máximo nivel. 
+              </p>
+         </section>
+            <hr>
+          <section>  
+             <h2 class="main__titulo2Main"> CONTENIDO</h2>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/aFgHyviEaLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/R48SVlz9uhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/uiqZTmaSIhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/rzlcLtvx1no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/8KrwsbWKTyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+             <iframe class="videosYt" width="560" height="315" src="https://www.youtube.com/embed/Kruph-cUUJU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          </section>    
+        </main>
+        <!--Al footer lo separe una lineas por debajo del main y agregue otro logo diferente y puse los iconos que te llevan a las respectivas paginas de twitter instagram y youtube del equipo-->
+        <footer>
+          <hr>
+            <div>
+                <a href="#"><img class="footer__logo" src= "./assets/img/Logo amarillo.png" alt="logo NIP"></a>
+            </div>
+            <!-- Aca estan puestos los iconos de las redes a los cuales les puse un efecto para que se vayan difuminando-->
+            <div class="footer__iconosRedes">
+                <a href="https://www.instagram.com/nipgaming/" target="_blank"><i class="fa-brands fa-instagram fa-2x fa-fade"></i></a>
+                <a href="https://twitter.com/NIP" target="_blank"><i class="fa-brands fa-twitter fa-2x fa-fade"></i></a>
+                <a href="https://www.youtube.com/@NIPGaming" target="_blank"><i class="fa-brands fa-youtube fa-2x fa-fade"></i></a>
+            </div>
+            <p class="footer__derechos">Todos los derechos reservados © - Facundo Nicolas Oviedo</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+/*Fuente de la pagina*/
+}body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+/*Al header le puse una imagen de fondo casi que ocupe toda la pantalla la cual no cambia cuando scrolleo el mouse*/
+.header{
+    display: block;
+    height: 75vh;
+    background-image: url(../assets/img/nip\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.header__contenedor{
+    display: inline;
+    width: 50%;
+}
+/*Al logo le saque la imagen de fondo con el removebg y le cambie el color*/
+.header__contenedor__logo{
+    width: 17%;
+    display: inline;
+    color: yellow;
+}
+/*A la navegacion la puse de manera vertical pero mi idea es en un futuro ponerla de manera horizontal*/ 
+.header__navegacion{
+    display: inline; 
+    width: 50%;
+    margin-top: 60px;  
+    margin-left: 550px;
+}
+/*A los lista item le saque el puntito y los separe 5px con respecto al proximo link de navegacion*/
+.haeder__navegacion__listaItem{
+    list-style: none;
+    display: block;
+    margin-bottom: 5px;
+}
+/*A los link de navegacion les cambien el color y el tamaño para que no tapen la imagen de fondo*/
+.header__navegacion__listaItems__listaItem__linkNav{
+    text-decoration: none;
+    color: yellow;
+    font-size: 1.7rem;
+    margin-left: 35px;
+}
+/*Al titulo le cambie el color y lo centre y le di una distancia con respecto al header de 15px*/
+.main__tituloMain{
+    color: yellow;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-top: 15px;
+}
+/*Al parrafo le cambie el color y el tamaño de la fuente, tambien lo centre*/
+.main__parrafoMain{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/*Al titulo que contiene la palabra "contenido" hice basicamente lo mismo que con el titulo main solo que lo separe 50px con respecto a cuando empiezan los videos*/
+.main__titulo2Main{
+    color: yellow;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+/*A los videos los separe con respecto al de al lado unos 60px y con respecto al de abajo 15px*/
+.videosYt{
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+/*Aca elegi poner un logo diferente al del header porque me parecio que estaba bueno*/
+.footer_logo{
+    font-size: 1.5rem;
+    margin-left: 35px;
+}
+
+.footer__iconosRedes{
+    text-align: center;
+}
+/*A la parte de los derechos del footer los separe con respecto al final de la pagina unos 25px y le cambie el color de la fuente como asi tambien el tamaño y lo centre*/
+.derechos{
+    color: white;
+    font-size:1rem ;
+    text-align: center;
+    margin-bottom: 25px;
+}
+/*A los 3 iconos les cambien el color a amarillo y los separe con una distancia de 10px entre si*/
+.fa-instagram{
+    color: yellow;
+}
+.fa-twitter{
+    color: yellow;
+    margin-left: 10px;
+}
+.fa-youtube{
+    color: yellow;
+    margin-left: 10px;
+}
+/*Aca empieza un breve estilado de las otras paginas mas que nada porque el fondo que elegí es negro entonces quise cambiarle el color de la fuente de esta manera para que se viera*/
+.main__jugadoresA{
+    color: white;
+    text-align: center;
+}
+/*Al header de la pagina equipo le cambie la imagen de fondo y le dije que ocupe el 75% de la pagina*/
+.header__equipo {
+    display: block;
+    height: 75vh;
+    background-image: url(../assets/img/Foto\ equipo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Al header de la pagina noticias lo mismo*/
+.header__noticias{
+    display: block;
+    height: 75vh;
+    background-image: url(../assets/img/Foto\ noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/*Aca lo que explicaba antes, al contenido del main le cambie el color para que se viera*/
+.main__noticias{
+    color: white;
+}
+/*A los titulos de las diferentes pagina les cambie el color, el tamaño de la fuente los centre y le cambie la distancia bottom con respecto al contenido*/
+.main__noticias__titulo{
+    color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.parrafoNoticias{
+    color: white;
+}
+
+/*Al header de la pagina eventos le cambien la imagen de fonfo*/
+.header__eventos{
+    display: block;
+    height: 75vh;
+    background-image: url(../assets/img/Foto\ eventos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main__eventos{
+    color: white;
+}
+.main__eventos__titulo{
+    color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*Al header de la pagina contacto le cambie la imagen de fondo*/
+.header__contacto{
+    display: block;
+    height: 75vh;
+    background-image: url(../assets/img/Foto\ contacto.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.main__tituloContacto{
+    color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+
+
