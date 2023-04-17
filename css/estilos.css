@@ -13,7 +13,7 @@
 .header{
     display: block;
     height: 100vh;
-    background-image: url(../assets/img/nip\ 2.jpg);
+    background-image: url(../assets/img/Foto\ index.avif);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@
 .header__contacto{
     display: block;
     height: 100vh;
-    background-image: url(../assets/img/Foto\ contacto.png);
+    background-image: url(../assets/img/Foto\ contacto.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
