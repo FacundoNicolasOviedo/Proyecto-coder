@@ -141,7 +141,7 @@
     color: white;
 }
 
-/*Al header de la pagina eventos le cambien la imagen de fonfo*/
+/*Al header de la pagina eventos le cambien la imagen de fondo*/
 .header__eventos{
     display: block;
     height: 100vh;
@@ -176,6 +176,10 @@
     font-size: 1.5rem;
     text-align: center;
     margin-bottom: 50px;
+}
+.estiloFormulario{
+    color: yellow;
+    font-family: 'Roboto', sans-serif;
 }
 
 
