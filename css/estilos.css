@@ -19,35 +19,21 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.header__contenedor{
-    display: inline;
-    width: 50%;
+.tamañoLogo{
+    width: 280px;
+    height: 160px;
+    margin-bottom: 10px;
 }
-/*Al logo le saque la imagen de fondo con el removebg y le cambie el color*/
-.header__contenedor__logo{
-    width: 17%;
-    display: inline;
+.navbar-light .navbar-nav .linkNav{
     color: yellow;
+    font-size: 22px;
+    margin-left: 25px;
 }
-/*A la navegacion la puse de manera vertical pero mi idea es en un futuro ponerla de manera horizontal*/ 
-.header__navegacion{
-    display: inline; 
-    width: 50%;
-    margin-top: 60px;  
-    margin-left: 550px;
-}
-/*A los lista item le saque el puntito y los separe 5px con respecto al proximo link de navegacion*/
-.haeder__navegacion__listaItem{
-    list-style: none;
-    display: block;
-    margin-bottom: 5px;
-}
-/*A los link de navegacion les cambien el color y el tamaño para que no tapen la imagen de fondo*/
-.header__navegacion__listaItems__listaItem__linkNav{
-    text-decoration: none;
-    color: yellow;
-    font-size: 1.7rem;
-    margin-left: 35px;
+.posicionNav{
+    width: 100%;
+    justify-content: end;
+    margin-bottom: 80px;
+    margin-right: 100px;
 }
 /*Al titulo le cambie el color y lo centre y le di una distancia con respecto al header de 15px*/
 .main__tituloMain{
@@ -84,8 +70,8 @@
     text-align: center;
 }
 /*A la parte de los derechos del footer los separe con respecto al final de la pagina unos 25px y le cambie el color de la fuente como asi tambien el tamaño y lo centre*/
-.derechos{
-    color: white;
+.footer__derechos{
+    color: yellow;
     font-size:1rem ;
     text-align: center;
     margin-bottom: 25px;
@@ -104,14 +90,14 @@
 }
 /*Aca empieza un breve estilado de las otras paginas mas que nada porque el fondo que elegí es negro entonces quise cambiarle el color de la fuente de esta manera para que se viera*/
 .main__jugadoresA{
-    color: white;
+    color: yellow;
     text-align: center;
 }
 /*Al header de la pagina equipo le cambie la imagen de fondo y le dije que ocupe el 75% de la pagina*/
 .header__equipo {
     display: block;
     height: 75vh;
-    background-image: url(../assets/img/Foto\ equipo.jpg);
+    background-image: url(../assets/img/Ezpo4X9XMAITmKy.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
