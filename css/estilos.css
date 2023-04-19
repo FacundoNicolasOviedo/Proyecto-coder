@@ -151,9 +151,6 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.main__eventos{
-    color: white;
-}
 .main__eventos__titulo{
     color: yellow;
     font-size: 2.4rem;
@@ -161,6 +158,32 @@
     margin-bottom: 50px;
     margin-top: 50px;
 }
+.main__eventos__estiloTexto{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main__eventos__estiloCard {
+    background-color: yellow;
+}
+.main__eventos__ul{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+.main__eventos__parrafo1{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.main__eventos__parrafo2{
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.main__eventos__logoIem{
+    margin-left: 40px;
+}
+
 
 /*Al header de la pagina contacto le cambie la imagen de fondo*/
 .header__contacto{
@@ -181,34 +204,4 @@
 .estiloFormulario{
     color: yellow;
     font-family: 'Roboto', sans-serif;
-}
-
-
-.estiloTexto{
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-.main__eventos__logo{
-    font-size: 1rem;
-}
-.main__eventos__logoIem{
-    margin-left: 40px;
-}
-.main__eventos__ul{
-    margin-top: 60px;
-    margin-left: 120px;
-}
-.main__eventos__parrafo1{
-    text-align: center;
-    font-size: 25px;
-    margin-left: 50px;
-    margin-top: 30px;
-}
-.main__eventos__parrafo2{
-    text-align: center;
-    margin-left: 50px;
-    margin-top: 50px;
-}
-.estiloCard {
-    background-color: yellow;
 }
