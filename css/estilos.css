@@ -128,6 +128,7 @@
 }
 /*Aca lo que explicaba antes, al contenido del main le cambie el color para que se viera*/
 .main__noticias{
+    display: flex;
     color: white;
 }
 /*A los titulos de las diferentes pagina les cambie el color, el tamaño de la fuente los centre y le cambie la distancia bottom con respecto al contenido*/
@@ -136,11 +137,18 @@
     font-size: 2.4rem;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
-.parrafoNoticias{
-    color: white;
+.main__noticias__imagenes{
+    text-align: center;
+    margin-top: 60px;
 }
-
+.main__noticias__imagenes__titulo{
+    color: yellow;
+}
+.main__noticias__imagenes__parrafo{
+    margin-top: 30px;
+}
 /*Al header de la pagina eventos le cambien la imagen de fondo*/
 .header__eventos{
     display: block;
@@ -201,17 +209,52 @@
     text-align: center;
     margin-bottom: 50px;
 }
-.estiloFormulario{
+.main__tituloContacto__estiloFormulario{
     color: yellow;
     font-family: 'Roboto', sans-serif;
 }
-.main__noticias__imagenes{
-    text-align: center;
-    margin-top: 60px;
-}
-.main__noticias__imagenes__titulo{
-    color: yellow;
-}
-.main__noticias__imagenes__parrafo{
+
+@media screen and (min-width:0px) and (max-width:768px){ 
+    .tamañoLogo{
+        width: 200px;
+        height: 110px;
+        margin-bottom: 5px;
+    }
+    .header{
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+    }
+    .header__equipo{
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+    }
+    .header__eventos{
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+    }
+    .header__noticias{
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+    }
+    .header__contacto{
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+    }
+    .footer__logo{
+       margin-left: 180px;
+    }
+   .main__eventos__parrafo2{
+       margin-right: 30px;
+   }
+   .main__eventos__ul{
+    margin-left: 170px;
+   }
+   .main__eventos__estiloCard__logo{
+    margin-left: 70px;
     margin-top: 30px;
+   }
+   .main__eventos__logoIem{
+    margin-left: 70px;
+    margin-top: 30px;
+   }
 }
