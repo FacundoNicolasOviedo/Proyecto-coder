@@ -130,6 +130,7 @@
 .main__noticias{
     display: flex;
     color: white;
+    flex-wrap: wrap;
 }
 /*A los titulos de las diferentes pagina les cambie el color, el tamaño de la fuente los centre y le cambie la distancia bottom con respecto al contenido*/
 .main__noticias__titulo{
