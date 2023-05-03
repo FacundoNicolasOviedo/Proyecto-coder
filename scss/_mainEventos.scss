@@ -1,0 +1,48 @@
+.main__eventos__titulo{
+    font-family: $tipografiaTitulos;
+    font-weight: $negrita;
+    color: map-get($map: $color, $key: amarillo);
+    font-size: 2.4rem;
+    text-align: $textoCentrado;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.main__eventos__estiloTexto{
+    color: map-get($map: $color, $key: negro);
+    font-family: $tipografiaTitulos;
+    .main__eventos__estiloCard{
+        background-color: map-get($map: $color, $key: amarillo);
+        .main__eventos__ul{
+            font-family: $tipografiaParrafos;
+            font-weight: bold;
+            margin-top: 60px;
+            margin-left: 120px;
+        }
+        .main__eventos__parrafo1{
+            font-family: $tipografiaParrafos;
+            text-align: $textoCentrado;
+           @include eventos(25px, 40px, 30px)
+        }
+        .main__eventos__parrafo2{
+            font-family: $tipografiaParrafos;
+            text-align: $textoCentrado;
+            @include eventos(20px, 50px, 40px)
+        }
+    }
+}
+@media screen and (min-width:0px) and (max-width:768px){
+    .main__eventos__parrafo2{
+        margin-right: 30px;
+    }
+    .main__eventos__ul{
+     margin-left: 170px;
+    }
+    .main__eventos__estiloCard__logo{
+     margin-left: 70px;
+     margin-top: 30px;
+    }
+    .main__eventos__logoIem{
+     margin-left: 70px;
+     margin-top: 30px;
+    }
+}

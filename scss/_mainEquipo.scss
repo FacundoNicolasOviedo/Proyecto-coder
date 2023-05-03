@@ -1,0 +1,20 @@
+.mainEquipo__jugadores { 
+    font-family: $tipografiaTitulos;
+    font-weight: $negrita;
+    color: map-get($map: $color, $key: amarillo);
+    text-align: $textoCentrado;
+    margin-top: 25px;
+    margin-bottom: 25px;}
+   
+.mainEquipo {
+        .mainEquipo__jugadores__estiloTitulo {
+            text-align: $textoCentrado;
+            font-family: $tipografiaTitulos;
+            background-color: map-get($map: $color, $key: negro);
+            color: map-get($map: $color, $key: amarillo);
+        }
+
+        .mainEquipo__jugadores__estiloParrafo {
+            font-family: $tipografiaParrafos;
+        } 
+}

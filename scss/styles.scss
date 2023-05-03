@@ -1,8 +1,14 @@
-@import "variables";
-@import"inicio";
-@import"equipo";
-@import"eventos";
-@import"noticias";
-@import"contacto";
-
-
+@import"variables";
+@import"reset";
+@import"mixin";
+@import"headerInicio";
+@import"headerEquipo";
+@import"headerEventos";
+@import"headerNoticias";
+@import"headerContacto";
+@import"mainInicio";
+@import"mainEquipo";
+@import"mainEventos";
+@import"mainNoticias";
+@import"mainContacto";
+@import"footer";

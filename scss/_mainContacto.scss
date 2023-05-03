@@ -1,0 +1,13 @@
+.mainContacto__tituloContacto{
+    font-family: $tipografiaTitulos;
+    font-weight: $negrita;
+    color: map-get($map: $color, $key: amarillo);
+    font-size: 1.5rem;
+    text-align: $textoCentrado;
+    margin-bottom: 50px;
+}
+.mainContacto__tituloContacto__estiloFormulario{
+            color: map-get($map: $color, $key: amarillo);
+            font-family: $tipografiaParrafos
+        }
+    

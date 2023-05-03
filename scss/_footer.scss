@@ -1,0 +1,34 @@
+.footer__logo {
+    font-size: 1.5rem;
+}
+
+.footer__iconosRedes {
+    text-align: $textoCentrado;
+
+    .fa-instagram {
+        color: map-get($map: $color, $key: amarillo);
+    }
+
+    .fa-twitter {
+        color: map-get($map: $color, $key: amarillo);
+        margin-left: 10px;
+    }
+
+    .fa-youtube {
+        color: map-get($map: $color, $key: amarillo);
+        margin-left: 10px;
+    }
+}
+
+.footer__derechos {
+    font-family: $tipografiaParrafos;
+    color: map-get($map: $color, $key: amarillo);
+    font-size: 1rem;
+    text-align: $textoCentrado;
+    margin-bottom: 25px;
+}
+@media screen and (min-width:0px) and (max-width:768px){
+    .footer__logo{
+        margin-left: 180px;
+     }
+}

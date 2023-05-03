@@ -1,0 +1,5 @@
+@mixin eventos($tamanoFuente, $margenIzquierdo, $margenSuperior){
+    font-size: $tamanoFuente;
+    margin-left: $margenIzquierdo;
+    margin-top: $margenSuperior;
+}

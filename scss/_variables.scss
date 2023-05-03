@@ -1,16 +1,18 @@
 $tipografiaTitulos: 'Roboto', sans-serif;
 $tipografiaParrafos: 'Times New Roman', Times, serif;
 $negrita: bold;
-$colorAmarillo: yellow;
-$colorNegro: black;
-$colorBlanco: white;
-$colorHover: red;
-$textoCentrado: center; 
 $flex: flex;
 $block: block;
 $alturaFotosPrincipales: 100vh;
 $flexWrap: wrap;
+$textoCentrado: center;
 $tamanoFotosPrincipales: cover;
 $repeticionFotosPrincipales: no-repeat;
 $movimientoFotosPrincipales: fixed;
 $posicionNavegacion: end;
+$color:(
+    amarillo: yellow,
+    negro: black,
+    blanco: white,
+    hover: red
+);

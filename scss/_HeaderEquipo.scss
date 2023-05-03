@@ -1,0 +1,60 @@
+.headerEquipo {
+    display: $block;
+    height: $alturaFotosPrincipales;
+    background-image: url(../assets/img/Foto\ equipo.jpeg);
+    background-size: $tamanoFotosPrincipales;
+    background-position: $textoCentrado;
+    background-repeat: $repeticionFotosPrincipales;
+    background-attachment: $movimientoFotosPrincipales;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .tamañoLogo {
+                    width: 280px;
+                    height: 160px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .collapse {
+                .posicionNav {
+                    width: 100%;
+                    justify-content: $posicionNavegacion;
+                    margin-bottom: 80px;
+                    margin-right: 100px;
+
+                    .linkNav {
+                        color: map-get($map: $color, $key:amarillo );
+                        font-size: 22px;
+                        margin-left: 25px;
+
+                        &:hover {
+                            color: map-get($map: $color, $key:hover );
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (min-width:0px) and (max-width:768px) {
+    .headerEquipo {
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+
+        .navbar {
+            .container-fluid {
+                .navbar-brand {
+                    .tamañoLogo {
+                        width: 200px;
+                        height: 110px;
+                        margin-bottom: 5px;
+
+                    }
+                }
+            }
+
+        }
+    }
+}

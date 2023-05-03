@@ -25,12 +25,12 @@
                     margin-right: 100px;
 
                     .linkNav {
-                        color: $colorAmarillo;
+                        color: map-get($map: $color, $key:amarillo );
                         font-size: 22px;
                         margin-left: 25px;
 
                         &:hover {
-                            color: $colorHover;
+                            color: map-get($map: $color, $key:hover );
                         }
                     }
                 }
@@ -38,45 +38,23 @@
         }
     }
 }
-.mainContacto__tituloContacto{
-    font-family: $tipografiaTitulos;
-    font-weight: $negrita;
-    color: $colorAmarillo;
-    font-size: 1.5rem;
-    text-align: $textoCentrado;
-    margin-bottom: 50px;
+@media screen and (min-width:0px) and (max-width:768px) {
+    .headerContacto {
+        background-image: url(../assets/img/foto\ responsive.jpg);
+        height: 45vh;
+
+        .navbar {
+            .container-fluid {
+                .navbar-brand {
+                    .tamañoLogo {
+                        width: 200px;
+                        height: 110px;
+                        margin-bottom: 5px;
+
+                    }
+                }
+            }
+
+        }
+    }
 }
-.mainContacto__tituloContacto__estiloFormulario{
-            color: $colorAmarillo;
-            font-family: $tipografiaParrafos
-        }
-    
-.footer__logo {
-        font-size: 1.5rem;
-    }
-
-    .footer__iconosRedes {
-        text-align: $textoCentrado;
-
-        .fa-instagram {
-            color: $colorAmarillo;
-        }
-
-        .fa-twitter {
-            color: $colorAmarillo;
-            margin-left: 10px;
-        }
-
-        .fa-youtube {
-            color: $colorAmarillo;
-            margin-left: 10px;
-        }
-    }
-
-    .footer__derechos {
-        font-family: $tipografiaParrafos;
-        color: $colorAmarillo;
-        font-size: 1rem;
-        text-align: $textoCentrado;
-        margin-bottom: 25px;
-    }

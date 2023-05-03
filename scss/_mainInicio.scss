@@ -1,0 +1,28 @@
+.main {
+    .main__tituloMain {
+        font-family: $tipografiaTitulos;
+        font-weight: $negrita;
+        color: map-get($map: $color, $key: amarillo);
+        font-size: 2.4rem;
+        text-align: $textoCentrado;
+        margin-top: 15px;
+    }
+
+    .main__parrafoMain {
+        font-family: $tipografiaParrafos;
+        color: white;
+        font-size: 1.2rem;
+        text-align: $textoCentrado;
+    }
+
+    .main__tituloMainDos {
+        @extend .main__tituloMain;
+        margin-bottom: 50px;
+    }
+
+    .videosYt {
+        margin-left: 60px;
+        margin-bottom: 15px;
+    }
+
+}
