@@ -1,0 +1,79 @@
+.headerContacto {
+    display: block;
+    height: 100vh;
+    background-image: url(../assets/img/Foto\ contacto.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .tamañoLogo {
+                    width: 280px;
+                    height: 160px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .collapse {
+                .posicionNav {
+                    width: 100%;
+                    justify-content: end;
+                    margin-bottom: 80px;
+                    margin-right: 100px;
+
+                    .linkNav {
+                        color: yellow;
+                        font-size: 22px;
+                        margin-left: 25px;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.mainContacto__tituloContacto{
+    color: yellow;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.mainContacto__tituloContacto__estiloFormulario{
+            color: yellow;
+            font-family: 'Roboto', sans-serif;
+        }
+    
+.footer__logo {
+        font-size: 1.5rem;
+    }
+
+    .footer__iconosRedes {
+        text-align: center;
+
+        .fa-instagram {
+            color: yellow;
+        }
+
+        .fa-twitter {
+            color: yellow;
+            margin-left: 10px;
+        }
+
+        .fa-youtube {
+            color: yellow;
+            margin-left: 10px;
+        }
+    }
+
+    .footer__derechos {
+        color: yellow;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }

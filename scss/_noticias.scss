@@ -1,0 +1,95 @@
+.headerNoticias {
+    display: block;
+    height: 100vh;
+    background-image: url(../assets/img/Foto\ noticias.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .tamañoLogo {
+                    width: 280px;
+                    height: 160px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .collapse {
+                .posicionNav {
+                    width: 100%;
+                    justify-content: end;
+                    margin-bottom: 80px;
+                    margin-right: 100px;
+
+                    .linkNav {
+                        color: yellow;
+                        font-size: 22px;
+                        margin-left: 25px;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.mainNoticias{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    .mainNoticias__titulo{
+        color: yellow;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .mainNoticias__imagenes{
+        text-align: center;
+        margin-top: 60px;
+        .mainNoticias__imagenes__titulo{
+            color: yellow;
+        }
+        .mainNoticias__imagenes__parrafo{
+            margin-top: 30px;
+        }
+    }
+    
+}
+
+.footer{
+    
+    .footer__logo {
+        font-size: 1.5rem;
+    }
+
+    .footer__iconosRedes {
+        text-align: center;
+
+        .fa-instagram {
+            color: yellow;
+        }
+
+        .fa-twitter {
+            color: yellow;
+            margin-left: 10px;
+        }
+
+        .fa-youtube {
+            color: yellow;
+            margin-left: 10px;
+        }
+    }
+
+    .footer__derechos {
+        color: yellow;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+}

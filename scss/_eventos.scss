@@ -1,0 +1,98 @@
+.headerEventos {
+    display: block;
+    height: 100vh;
+    background-image: url(../assets/img/Foto\ eventos.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .navbar {
+        .container-fluid {
+            .navbar-brand {
+                .tamañoLogo {
+                    width: 280px;
+                    height: 160px;
+                    margin-bottom: 10px;
+                }
+            }
+
+            .collapse {
+                .posicionNav {
+                    width: 100%;
+                    justify-content: end;
+                    margin-bottom: 80px;
+                    margin-right: 100px;
+
+                    .linkNav {
+                        color: yellow;
+                        font-size: 22px;
+                        margin-left: 25px;
+
+                        &:hover {
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.main__eventos__titulo{
+    color: yellow;
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.main__eventos__estiloTexto{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    .main__eventos__estiloCard{
+        background-color: yellow;
+        .main__eventos__ul{
+            margin-top: 60px;
+            margin-left: 120px;
+        }
+        .main__eventos__parrafo1{
+            text-align: center;
+            font-size: 25px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        .main__eventos__parrafo2{
+            text-align: center;
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+    }
+
+}
+.footer__logo {
+        font-size: 1.5rem;
+    }
+
+    .footer__iconosRedes {
+        text-align: center;
+
+        .fa-instagram {
+            color: yellow;
+        }
+
+        .fa-twitter {
+            color: yellow;
+            margin-left: 10px;
+        }
+
+        .fa-youtube {
+            color: yellow;
+            margin-left: 10px;
+        }
+    }
+
+    .footer__derechos {
+        color: yellow;
+        font-size: 1rem;
+        text-align: center;
+        margin-bottom: 25px;
+    }
