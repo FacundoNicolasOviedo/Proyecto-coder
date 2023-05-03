@@ -1,11 +1,11 @@
 .headerNoticias {
-    display: block;
-    height: 100vh;
+    display: $block;
+    height: $alturaFotosPrincipales;
     background-image: url(../assets/img/Foto\ noticias.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: $tamanoFotosPrincipales;
+    background-position: $textoCentrado;
+    background-repeat: $repeticionFotosPrincipales;
+    background-attachment: $movimientoFotosPrincipales;
 
     .navbar {
         .container-fluid {
@@ -20,17 +20,17 @@
             .collapse {
                 .posicionNav {
                     width: 100%;
-                    justify-content: end;
+                    justify-content: $posicionNavegacion;
                     margin-bottom: 80px;
                     margin-right: 100px;
 
                     .linkNav {
-                        color: yellow;
+                        color: $colorAmarillo;
                         font-size: 22px;
                         margin-left: 25px;
 
                         &:hover {
-                            color: red;
+                            color: $colorHover;
                         }
                     }
                 }
@@ -39,57 +39,60 @@
     }
 }
 .mainNoticias{
-    display: flex;
-    color: white;
-    flex-wrap: wrap;
+    display: $flex;
+    color: $colorBlanco;
+    flex-wrap: $flexWrap;
     .mainNoticias__titulo{
-        color: yellow;
+        font-family: $tipografiaTitulos;
+        font-weight: $negrita;
+        color: $colorAmarillo;
         font-size: 2.4rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-bottom: 50px;
         margin-top: 50px;
     }
     .mainNoticias__imagenes{
-        text-align: center;
+        text-align: $textoCentrado;
         margin-top: 60px;
         .mainNoticias__imagenes__titulo{
-            color: yellow;
+            font-family: $tipografiaParrafos;
+            font-size: 20px;
+            color: $colorAmarillo;
         }
         .mainNoticias__imagenes__parrafo{
+            font-family: $tipografiaParrafos;
             margin-top: 30px;
         }
     }
     
 }
 
-.footer{
-    
-    .footer__logo {
+.footer__logo {
         font-size: 1.5rem;
     }
 
     .footer__iconosRedes {
-        text-align: center;
+        text-align: $textoCentrado;
 
         .fa-instagram {
-            color: yellow;
+            color: $colorAmarillo;
         }
 
         .fa-twitter {
-            color: yellow;
+            color: $colorAmarillo;
             margin-left: 10px;
         }
 
         .fa-youtube {
-            color: yellow;
+            color: $colorAmarillo;
             margin-left: 10px;
         }
     }
 
     .footer__derechos {
-        color: yellow;
+        font-family: $tipografiaParrafos;
+        color: $colorAmarillo;
         font-size: 1rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-bottom: 25px;
     }
-}

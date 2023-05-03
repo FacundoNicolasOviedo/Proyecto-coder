@@ -6,18 +6,17 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
     background-color: black;
 }
 
 .header {
-    display: block;
-    height: 100vh;
+    display: $block;
+    height: $alturaFotosPrincipales;
     background-image: url(../assets/img/Foto\ index.avif);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: $tamanoFotosPrincipales;
+    background-position: $textoCentrado;
+    background-repeat: $repeticionFotosPrincipales;
+    background-attachment: $movimientoFotosPrincipales;
 
     .navbar {
         .container-fluid {
@@ -32,17 +31,17 @@ body {
             .collapse {
                 .posicionNav {
                     width: 100%;
-                    justify-content: end;
+                    justify-content: $posicionNavegacion;
                     margin-bottom: 80px;
                     margin-right: 100px;
 
                     .linkNav {
-                        color: yellow;
+                        color: $colorAmarillo;
                         font-size: 22px;
                         margin-left: 25px;
 
                         &:hover {
-                            color: red;
+                            color: $colorHover;
                         }
                     }
                 }
@@ -53,22 +52,27 @@ body {
 
 .main {
     .main__tituloMain {
-        color: yellow;
+        font-family: $tipografiaTitulos;
+        font-weight: $negrita;
+        color: $colorAmarillo;
         font-size: 2.4rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-top: 15px;
     }
 
     .main__parrafoMain {
+        font-family: $tipografiaParrafos;
         color: white;
         font-size: 1.2rem;
-        text-align: center;
+        text-align: $textoCentrado;
     }
 
     .main__tituloMainDos {
-        color: yellow;
+        font-family: $tipografiaTitulos;
+        font-weight: $negrita;
+        color: $colorAmarillo;
         font-size: 2.4rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-bottom: 50px;
     }
 
@@ -84,26 +88,27 @@ body {
     }
 
     .footer__iconosRedes {
-        text-align: center;
+        text-align: $textoCentrado;
 
         .fa-instagram {
-            color: yellow;
+            color: $colorAmarillo;
         }
 
         .fa-twitter {
-            color: yellow;
+            color: $colorAmarillo;
             margin-left: 10px;
         }
 
         .fa-youtube {
-            color: yellow;
+            color: $colorAmarillo;
             margin-left: 10px;
         }
     }
 
     .footer__derechos {
-        color: yellow;
+        font-family: $tipografiaParrafos;
+        color: $colorAmarillo;
         font-size: 1rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-bottom: 25px;
     }

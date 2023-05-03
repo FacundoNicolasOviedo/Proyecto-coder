@@ -1,11 +1,11 @@
 .headerEquipo {
-    display: block;
-    height: 100vh;
+    display: $block;
+    height: $alturaFotosPrincipales;
     background-image: url(../assets/img/Foto\ equipo.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-size: $tamanoFotosPrincipales;
+    background-position: $textoCentrado;
+    background-repeat: $repeticionFotosPrincipales;
+    background-attachment: $movimientoFotosPrincipales;
 
     .navbar {
         .container-fluid {
@@ -20,17 +20,17 @@
             .collapse {
                 .posicionNav {
                     width: 100%;
-                    justify-content: end;
+                    justify-content: $posicionNavegacion;
                     margin-bottom: 80px;
                     margin-right: 100px;
 
                     .linkNav {
-                        color: yellow;
+                        color: $colorAmarillo;
                         font-size: 22px;
                         margin-left: 25px;
 
                         &:hover {
-                            color: red;
+                            color: $colorHover;
                         }
                     }
                 }
@@ -38,23 +38,25 @@
         }
     }
 }
-.mainEquipo__jugadores { color: yellow;
-    text-align: center;
+.mainEquipo__jugadores { 
+    font-family: $tipografiaTitulos;
+    font-weight: $negrita;
+    color: $colorAmarillo;
+    text-align: $textoCentrado;
     margin-top: 25px;
     margin-bottom: 25px;}
    
 .mainEquipo {
         .mainEquipo__jugadores__estiloTitulo {
-            text-align: center;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            background-color: black;
-            color: yellow;
+            text-align: $textoCentrado;
+            font-family: $tipografiaTitulos;
+            background-color: $colorNegro;
+            color: $colorAmarillo;
         }
 
         .mainEquipo__jugadores__estiloParrafo {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-    
+            font-family: $tipografiaParrafos;
+        } 
 }
 
 
@@ -63,26 +65,27 @@
     }
 
     .footer__iconosRedes {
-        text-align: center;
+        text-align: $textoCentrado;
 
         .fa-instagram {
-            color: yellow;
+            color: $colorAmarillo;
         }
 
         .fa-twitter {
-            color: yellow;
+            color:$colorAmarillo;
             margin-left: 10px;
         }
 
         .fa-youtube {
-            color: yellow;
+            color: $colorAmarillo;
             margin-left: 10px;
         }
     }
 
     .footer__derechos {
-        color: yellow;
+        font-family: $tipografiaParrafos;
+        color: $colorAmarillo;
         font-size: 1rem;
-        text-align: center;
+        text-align: $textoCentrado;
         margin-bottom: 25px;
     }
