@@ -23,6 +23,7 @@ body {
   width: 280px;
   height: 160px;
   margin-bottom: 10px;
+  animation: rotate 3s;
 }
 .header .navbar .container-fluid .collapse .posicionNav {
   width: 100%;
@@ -39,6 +40,14 @@ body {
   color: red;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .header {
     background-image: url(../assets/img/foto\ responsive.jpg);
@@ -63,6 +72,7 @@ body {
   width: 280px;
   height: 160px;
   margin-bottom: 10px;
+  animation: rotate 3s;
 }
 .headerEquipo .navbar .container-fluid .collapse .posicionNav {
   width: 100%;
@@ -79,6 +89,14 @@ body {
   color: red;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .headerEquipo {
     background-image: url(../assets/img/foto\ responsive.jpg);
@@ -103,6 +121,7 @@ body {
   width: 280px;
   height: 160px;
   margin-bottom: 10px;
+  animation: rotate 3s;
 }
 .headerEventos .navbar .container-fluid .collapse .posicionNav {
   width: 100%;
@@ -119,6 +138,14 @@ body {
   color: red;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .headerEventos {
     background-image: url(../assets/img/foto\ responsive.jpg);
@@ -143,6 +170,7 @@ body {
   width: 280px;
   height: 160px;
   margin-bottom: 10px;
+  animation: rotate 3s;
 }
 .headerNoticias .navbar .container-fluid .collapse .posicionNav {
   width: 100%;
@@ -159,6 +187,14 @@ body {
   color: red;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .headerNoticias {
     background-image: url(../assets/img/foto\ responsive.jpg);
@@ -183,6 +219,7 @@ body {
   width: 280px;
   height: 160px;
   margin-bottom: 10px;
+  animation: rotate 3s;
 }
 .headerContacto .navbar .container-fluid .collapse .posicionNav {
   width: 100%;
@@ -199,6 +236,14 @@ body {
   color: red;
 }
 
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .headerContacto {
     background-image: url(../assets/img/foto\ responsive.jpg);
@@ -234,7 +279,8 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .main .videosYt {
-    margin-left: 0px;
+    width: 460px;
+    margin-left: 10px;
   }
 }
 .mainEquipo__jugadores {
@@ -404,7 +450,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .footer__logo {
-    margin-left: 180px;
+    margin-left: 100px;
   }
 }
 
