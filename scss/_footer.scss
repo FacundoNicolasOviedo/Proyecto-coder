@@ -7,26 +7,45 @@
 
     .fa-instagram {
         color: map-get($map: $color, $key: amarillo);
+        font-size: 30px;
+        transition: color 2s;
     }
 
     .fa-twitter {
         color: map-get($map: $color, $key: amarillo);
         margin-left: 10px;
+        font-size: 30px;
+        transition: color 2s;
     }
 
     .fa-youtube {
         color: map-get($map: $color, $key: amarillo);
         margin-left: 10px;
+        font-size: 30px;
+        transition: color 2s;
     }
 }
-
+.fa-instagram:hover{
+    color: red;
+}
+.fa-twitter:hover{
+    color:red
+}
+.fa-youtube:hover{
+    color: red
+}
 .footer__derechos {
     font-family: $tipografiaParrafos;
     color: map-get($map: $color, $key: amarillo);
     font-size: 1rem;
     text-align: $textoCentrado;
     margin-bottom: 25px;
+    transition: color 2s;
 }
+.footer__derechos:hover{
+color: red;
+}
+
 @media screen and (min-width:0px) and (max-width:768px){
     .footer__logo{
         margin-left: 180px;
