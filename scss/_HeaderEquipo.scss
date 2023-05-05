@@ -1,8 +1,8 @@
 .headerEquipo {
     display: $block;
-    height: $alturaFotosPrincipales;
     background-image: url(../assets/img/Foto\ equipo.jpeg);
     background-size: $tamanoFotosPrincipales;
+    height: $alturaFotosPrincipales;
     background-position: $textoCentrado;
     background-repeat: $repeticionFotosPrincipales;
     background-attachment: $movimientoFotosPrincipales;
@@ -29,6 +29,7 @@
                         color: map-get($map: $color, $key:amarillo );
                         font-size: 22px;
                         margin-left: 25px;
+                        text-decoration: $subrayado;
 
                         &:hover {
                             color: map-get($map: $color, $key:hover );
@@ -38,7 +39,14 @@
             }
         }
     }
+    .headerTitulo{
+        color: map-get($map: $color, $key:amarillo );
+        text-align: $textoCentrado;
+        margin-top: 450px;
+        background-color: rgba(219, 24, 24, 0.767);
+    }
 }
+
 @keyframes rotate{
     0%{
         transform: rotate(0);

@@ -2,8 +2,8 @@
     .main__tituloMain {
         font-family: $tipografiaTitulos;
         font-weight: $negrita;
+        text-decoration: $subrayado;
         color: map-get($map: $color, $key: amarillo);
-        font-size: 2.4rem;
         text-align: $textoCentrado;
         margin-top: 15px;
     }

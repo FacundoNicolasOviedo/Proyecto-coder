@@ -35,9 +35,16 @@ body {
   color: yellow;
   font-size: 22px;
   margin-left: 25px;
+  text-decoration: underline;
 }
 .header .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
   color: red;
+}
+.header .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
 }
 
 @keyframes rotate {
@@ -58,12 +65,15 @@ body {
     height: 110px;
     margin-bottom: 5px;
   }
+  .headerTitulo {
+    display: none;
+  }
 }
 .headerEquipo {
   display: block;
-  height: 100vh;
   background-image: url(../assets/img/Foto\ equipo.jpeg);
   background-size: cover;
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -84,9 +94,16 @@ body {
   color: yellow;
   font-size: 22px;
   margin-left: 25px;
+  text-decoration: underline;
 }
 .headerEquipo .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
   color: red;
+}
+.headerEquipo .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
 }
 
 @keyframes rotate {
@@ -133,9 +150,16 @@ body {
   color: yellow;
   font-size: 22px;
   margin-left: 25px;
+  text-decoration: underline;
 }
 .headerEventos .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
   color: red;
+}
+.headerEventos .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 440px;
+  background-color: rgba(219, 24, 24, 0.767);
 }
 
 @keyframes rotate {
@@ -155,6 +179,9 @@ body {
     width: 200px;
     height: 110px;
     margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
   }
 }
 .headerNoticias {
@@ -182,9 +209,23 @@ body {
   color: yellow;
   font-size: 22px;
   margin-left: 25px;
+  text-decoration: underline;
 }
 .headerNoticias .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
   color: red;
+}
+.headerNoticias .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
+}
+
+.headerTexto {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: white;
 }
 
 @keyframes rotate {
@@ -204,6 +245,9 @@ body {
     width: 200px;
     height: 110px;
     margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
   }
 }
 .headerContacto {
@@ -231,9 +275,16 @@ body {
   color: yellow;
   font-size: 22px;
   margin-left: 25px;
+  text-decoration: underline;
 }
 .headerContacto .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
   color: red;
+}
+.headerContacto .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
 }
 
 @keyframes rotate {
@@ -254,17 +305,20 @@ body {
     height: 110px;
     margin-bottom: 5px;
   }
+  .headerTitulo {
+    display: none;
+  }
 }
 .main .main__tituloMain, .main .main__tituloMainDos {
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  text-decoration: underline;
   color: yellow;
-  font-size: 2.4rem;
   text-align: center;
   margin-top: 15px;
 }
 .main .main__parrafoMain {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 1.2rem;
   text-align: center;
@@ -284,8 +338,9 @@ body {
   }
 }
 .mainEquipo__jugadores {
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  text-decoration: underline;
   color: yellow;
   text-align: center;
   margin-top: 25px;
@@ -294,19 +349,19 @@ body {
 
 .mainEquipo .mainEquipo__jugadores__estiloTitulo {
   text-align: center;
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   background-color: black;
   color: yellow;
 }
 .mainEquipo .mainEquipo__jugadores__estiloParrafo {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .main__eventos__titulo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  text-decoration: underline;
   color: yellow;
-  font-size: 2.4rem;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -314,26 +369,26 @@ body {
 
 .main__eventos__estiloTexto {
   color: black;
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 .main__eventos__estiloTexto .main__eventos__estiloCard {
   background-color: yellow;
 }
 .main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__ul {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-top: 60px;
   margin-left: 120px;
 }
 .main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__parrafo1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 25px;
   margin-left: 40px;
   margin-top: 30px;
 }
 .main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__parrafo2 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 20px;
   margin-left: 50px;
@@ -362,10 +417,10 @@ body {
   flex-wrap: wrap;
 }
 .mainNoticias .mainNoticias__titulo {
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  text-decoration: underline;
   color: yellow;
-  font-size: 2.4rem;
   text-align: center;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -375,27 +430,27 @@ body {
   margin-top: 60px;
 }
 .mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__titulo {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: yellow;
 }
 .mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__parrafo {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   margin-top: 30px;
 }
 
 .mainContacto__tituloContacto {
-  font-family: "Roboto", sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
+  text-decoration: underline;
   color: yellow;
-  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 50px;
 }
 
 .mainContacto__tituloContacto__estiloFormulario {
   color: yellow;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .footer__logo {
@@ -436,7 +491,7 @@ body {
 }
 
 .footer__derechos {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
   color: yellow;
   font-size: 1rem;
   text-align: center;

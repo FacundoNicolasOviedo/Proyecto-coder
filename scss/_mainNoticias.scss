@@ -5,8 +5,8 @@
     .mainNoticias__titulo{
         font-family: $tipografiaTitulos;
         font-weight: $negrita;
+        text-decoration: $subrayado;
         color: map-get($map: $color, $key: amarillo);
-        font-size: 2.4rem;
         text-align: $textoCentrado;
         margin-bottom: 50px;
         margin-top: 50px;

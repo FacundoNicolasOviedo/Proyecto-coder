@@ -1,8 +1,8 @@
 .mainContacto__tituloContacto{
     font-family: $tipografiaTitulos;
     font-weight: $negrita;
+    text-decoration: $subrayado;
     color: map-get($map: $color, $key: amarillo);
-    font-size: 1.5rem;
     text-align: $textoCentrado;
     margin-bottom: 50px;
 }

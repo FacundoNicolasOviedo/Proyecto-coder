@@ -1,6 +1,7 @@
 .mainEquipo__jugadores { 
     font-family: $tipografiaTitulos;
     font-weight: $negrita;
+    text-decoration: $subrayado;
     color: map-get($map: $color, $key: amarillo);
     text-align: $textoCentrado;
     margin-top: 25px;

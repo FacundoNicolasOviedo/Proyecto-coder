@@ -29,6 +29,7 @@
                         color: map-get($map: $color, $key:amarillo );
                         font-size: 22px;
                         margin-left: 25px;
+                        text-decoration: $subrayado;
 
                         &:hover {
                             color: map-get($map: $color, $key:hover);
@@ -37,6 +38,12 @@
                 }
             }
         }
+    }
+    .headerTitulo{
+        color: map-get($map: $color, $key:amarillo );
+        text-align: $textoCentrado;
+        margin-top: 440px;
+        background-color: rgba(219, 24, 24, 0.767);
     }
 }
 @keyframes rotate{
@@ -65,5 +72,8 @@
             }
 
         }
+    }
+    .headerTitulo{
+        display: none;
     }
 }

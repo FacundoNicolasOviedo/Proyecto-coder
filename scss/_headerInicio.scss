@@ -29,6 +29,7 @@
                         color: map-get($color, amarillo);
                         font-size: 22px;
                         margin-left: 25px;
+                        text-decoration: $subrayado;
 
                         &:hover {
                             color: map-get($map: $color, $key: hover );
@@ -38,7 +39,14 @@
             }
         }
     }
+    .headerTitulo{
+        color: map-get($map: $color, $key:amarillo );
+        text-align: $textoCentrado;
+        margin-top: 450px;
+        background-color: rgba(219, 24, 24, 0.767);
+    }
 }
+
 @keyframes rotate{
     0%{
         transform: rotate(0);
@@ -51,7 +59,6 @@
     .header {
         background-image: url(../assets/img/foto\ responsive.jpg);
         height: 45vh;
-
         .navbar {
             .container-fluid {
                 .navbar-brand {
@@ -65,5 +72,8 @@
             }
 
         }
+    }
+    .headerTitulo{
+        display: none;
     }
 }
