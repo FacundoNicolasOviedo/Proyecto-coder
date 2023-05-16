@@ -1,36 +1,39 @@
 .main {
-    .main__tituloMain {
-        font-family: $tipografiaTitulos;
-        font-weight: $negrita;
-        text-decoration: $subrayado;
-        color: map-get($map: $color, $key: amarillo);
-        text-align: $textoCentrado;
-        margin-top: 15px;
-    }
+        .main__tituloMain {
+            font-family: $tipografiaTitulos;
+            font-weight: $negrita;
+            text-decoration: $subrayado;
+            color: map-get($map: $color, $key: amarillo);
+            text-align: $textoCentrado;
+            margin-top: 15px;
+        }
+    
+        .main__parrafoMain {
+            font-family: $tipografiaParrafos;
+            color: white;
+            font-size: 1.2rem;
+            text-align: $textoCentrado;
+        }
+    
+        .main__tituloMainDos {
+            @extend .main__tituloMain;
+            margin-bottom: 50px;
+        }
+    
+        .videosYt { 
+            margin-left: 60px;
+            margin-bottom: 15px;
+        }
 
-    .main__parrafoMain {
-        font-family: $tipografiaParrafos;
-        color: white;
-        font-size: 1.2rem;
-        text-align: $textoCentrado;
     }
+    
 
-    .main__tituloMainDos {
-        @extend .main__tituloMain;
-        margin-bottom: 50px;
-    }
-
-    .videosYt {
-        margin-left: 60px;
-        margin-bottom: 15px;
-    }
-}
 
 
 @media screen and (min-width:0px) and (max-width:768px){
     .main{
         .videosYt{
-            width: 460px;
+            width: 100%;
             margin-left: 10px; 
            }
     }

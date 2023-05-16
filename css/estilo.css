@@ -103,7 +103,7 @@ body {
   color: yellow;
   text-align: center;
   margin-top: 450px;
-  background-color: rgba(219, 24, 24, 0.767);
+  background-color: rgba(105, 34, 34, 0.514);
 }
 
 @keyframes rotate {
@@ -333,7 +333,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .main .videosYt {
-    width: 460px;
+    width: 100%;
     margin-left: 10px;
   }
 }
@@ -505,7 +505,7 @@ body {
 
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .footer__logo {
-    margin-left: 100px;
+    text-align: center;
   }
 }
 
