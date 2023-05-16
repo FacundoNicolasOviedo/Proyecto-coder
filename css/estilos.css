@@ -1,0 +1,512 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Fuente de la pagina*/
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  display: block;
+  height: 100vh;
+  background-image: url(../assets/img/Foto\ index.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.header .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.header .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.header .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+.header .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .header {
+    background-image: url(../assets/img/foto\ responsive.jpg);
+    height: 45vh;
+  }
+  .header .navbar .container-fluid .navbar-brand .tamañoLogo {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
+  }
+}
+.headerEquipo {
+  display: block;
+  background-image: url(../assets/img/Foto\ equipo.jpeg);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.headerEquipo .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.headerEquipo .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.headerEquipo .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.headerEquipo .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+.headerEquipo .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(105, 34, 34, 0.514);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .headerEquipo {
+    background-image: url(../assets/img/foto\ responsive.jpg);
+    height: 45vh;
+  }
+  .headerEquipo .navbar .container-fluid .navbar-brand .tamañoLogo {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 5px;
+  }
+}
+.headerEventos {
+  display: block;
+  height: 100vh;
+  background-image: url(../assets/img/Foto\ eventos.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.headerEventos .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.headerEventos .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.headerEventos .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.headerEventos .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+.headerEventos .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 440px;
+  background-color: rgba(219, 24, 24, 0.767);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .headerEventos {
+    background-image: url(../assets/img/foto\ responsive.jpg);
+    height: 45vh;
+  }
+  .headerEventos .navbar .container-fluid .navbar-brand .tamañoLogo {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
+  }
+}
+.headerNoticias {
+  display: block;
+  height: 100vh;
+  background-image: url(../assets/img/Foto\ noticias.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.headerNoticias .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.headerNoticias .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.headerNoticias .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.headerNoticias .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+.headerNoticias .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
+}
+
+.headerTexto {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: white;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .headerNoticias {
+    background-image: url(../assets/img/foto\ responsive.jpg);
+    height: 45vh;
+  }
+  .headerNoticias .navbar .container-fluid .navbar-brand .tamañoLogo {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
+  }
+}
+.headerContacto {
+  display: block;
+  height: 100vh;
+  background-image: url(../assets/img/Foto\ contacto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.headerContacto .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.headerContacto .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.headerContacto .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.headerContacto .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+.headerContacto .headerTitulo {
+  color: yellow;
+  text-align: center;
+  margin-top: 450px;
+  background-color: rgba(219, 24, 24, 0.767);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .headerContacto {
+    background-image: url(../assets/img/foto\ responsive.jpg);
+    height: 45vh;
+  }
+  .headerContacto .navbar .container-fluid .navbar-brand .tamañoLogo {
+    width: 200px;
+    height: 110px;
+    margin-bottom: 5px;
+  }
+  .headerTitulo {
+    display: none;
+  }
+}
+.main .main__tituloMain, .main .main__tituloMainDos {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+  margin-top: 15px;
+}
+.main .main__parrafoMain {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.main .main__tituloMainDos {
+  margin-bottom: 50px;
+}
+.main .videosYt {
+  margin-left: 60px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .main .videosYt {
+    width: 460px;
+    margin-left: 10px;
+  }
+}
+.mainEquipo__jugadores {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.mainEquipo .mainEquipo__jugadores__estiloTitulo {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  background-color: black;
+  color: yellow;
+}
+.mainEquipo .mainEquipo__jugadores__estiloParrafo {
+  font-family: "Roboto", sans-serif;
+}
+
+.main__eventos__titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.main__eventos__estiloTexto {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.main__eventos__estiloTexto .main__eventos__estiloCard {
+  background-color: yellow;
+}
+.main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-left: 120px;
+}
+.main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__parrafo1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+.main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__parrafo2 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .main__eventos__parrafo2 {
+    margin-right: 30px;
+  }
+  .main__eventos__ul {
+    margin-left: 170px;
+  }
+  .main__eventos__estiloCard__logo {
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+  .main__eventos__logoIem {
+    margin-left: 70px;
+    margin-top: 30px;
+  }
+}
+.mainNoticias {
+  display: flex;
+  color: white;
+  flex-wrap: wrap;
+}
+.mainNoticias .mainNoticias__titulo {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.mainNoticias .mainNoticias__imagenes {
+  text-align: center;
+  margin-top: 60px;
+}
+.mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__titulo {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: yellow;
+}
+.mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__parrafo {
+  font-family: "Roboto", sans-serif;
+  margin-top: 30px;
+}
+
+.mainContacto__tituloContacto {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  text-decoration: underline;
+  color: yellow;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.mainContacto__tituloContacto__estiloFormulario {
+  color: yellow;
+  font-family: "Roboto", sans-serif;
+}
+
+.footer__logo {
+  font-size: 1.5rem;
+}
+
+.footer__iconosRedes {
+  text-align: center;
+}
+.footer__iconosRedes .fa-instagram {
+  color: yellow;
+  font-size: 30px;
+  transition: color 2s;
+}
+.footer__iconosRedes .fa-twitter {
+  color: yellow;
+  margin-left: 10px;
+  font-size: 30px;
+  transition: color 2s;
+}
+.footer__iconosRedes .fa-youtube {
+  color: yellow;
+  margin-left: 10px;
+  font-size: 30px;
+  transition: color 2s;
+}
+
+.fa-instagram:hover {
+  color: red;
+}
+
+.fa-twitter:hover {
+  color: red;
+}
+
+.fa-youtube:hover {
+  color: red;
+}
+
+.footer__derechos {
+  font-family: "Roboto", sans-serif;
+  color: yellow;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 25px;
+  transition: color 2s;
+}
+
+.footer__derechos:hover {
+  color: red;
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .footer__logo {
+    margin-left: 100px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
