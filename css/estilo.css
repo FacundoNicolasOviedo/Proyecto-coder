@@ -309,6 +309,37 @@ body {
     display: none;
   }
 }
+.header {
+  display: block;
+  height: 100vh;
+  background-image: url(../assets/img/Foto\ index.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.header .navbar .container-fluid .navbar-brand .tamañoLogo {
+  width: 280px;
+  height: 160px;
+  margin-bottom: 10px;
+  animation: rotate 3s;
+}
+.header .navbar .container-fluid .collapse .posicionNav {
+  width: 100%;
+  justify-content: end;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+.header .navbar .container-fluid .collapse .posicionNav .linkNav {
+  color: yellow;
+  font-size: 22px;
+  margin-left: 25px;
+  text-decoration: underline;
+}
+.header .navbar .container-fluid .collapse .posicionNav .linkNav:hover {
+  color: red;
+}
+
 .main .main__tituloMain, .main .main__tituloMainDos {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
@@ -331,7 +362,7 @@ body {
   margin-bottom: 15px;
 }
 
-@media screen and (min-width: 0px) and (max-width: 768px) {
+@media screen and (min-width: 0gitpx) and (max-width: 768px) {
   .main .videosYt {
     width: 100%;
   }
