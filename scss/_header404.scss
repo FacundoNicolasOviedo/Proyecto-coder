@@ -1,3 +1,24 @@
 .headerError {
-  background-image: url(../assets/img/Page404.png);
+    display: block;
+    background-image: url(../assets/img/Page404.png);
+    background-size: $tamanoFotosPrincipales;
+    height: $alturaFotosPrincipales;
+    background-position: $textoCentrado;
+    background-repeat: $repeticionFotosPrincipales;
+    background-attachment: $movimientoFotosPrincipales;
+        .headerError__titulo{
+            color: map-get($map: $color, $key:amarillo );
+            text-align: $textoCentrado;
+        }
+        .headerError__titulo2{
+            color: map-get($map: $color, $key:amarillo);
+            text-align: $textoCentrado;
+            margin-top: 800px;
+            .headerError__titulo2__ancla{
+                text-decoration: none;
+                color: map-get($map: $color, $key:negro);
+                
+            }
+            
+        }
 }

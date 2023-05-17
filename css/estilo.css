@@ -103,7 +103,7 @@ body {
   color: yellow;
   text-align: center;
   margin-top: 450px;
-  background-color: rgba(105, 34, 34, 0.514);
+  background-color: rgba(219, 24, 24, 0.767);
 }
 
 @keyframes rotate {
@@ -310,7 +310,26 @@ body {
   }
 }
 .headerError {
+  display: block;
   background-image: url(../assets/img/Page404.png);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.headerError .headerError__titulo {
+  color: yellow;
+  text-align: center;
+}
+.headerError .headerError__titulo2 {
+  color: yellow;
+  text-align: center;
+  margin-top: 800px;
+}
+.headerError .headerError__titulo2 .headerError__titulo2__ancla {
+  text-decoration: none;
+  color: black;
 }
 
 .main .main__tituloMain, .main .main__tituloMainDos {
