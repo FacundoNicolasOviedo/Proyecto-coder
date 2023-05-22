@@ -12,6 +12,8 @@
     font-family: $tipografiaTitulos;
     .main__eventos__estiloCard{
         background-color: map-get($map: $color, $key: amarillo);
+        animation: fadeInLeft;
+        animation-duration: 2s;
         .main__eventos__ul{
             font-family: $tipografiaParrafos;
             font-weight: bold;

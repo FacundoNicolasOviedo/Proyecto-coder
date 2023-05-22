@@ -44,6 +44,8 @@
         text-align: $textoCentrado;
         margin-top: 440px;
         background-color: rgba(219, 24, 24, 0.767);
+        animation: backInUp;
+        animation-duration: 1.5s;
     }
 }
 @keyframes rotate{
