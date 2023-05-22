@@ -17,5 +17,9 @@
 
         .mainEquipo__jugadores__estiloParrafo {
             font-family: $tipografiaParrafos;
+            .mainEquipo__jugadores__estiloParrafo__estiloNombre{
+                color: map-get($map: $color, $key: hover);
+                font-weight: bold;
+            }
         } 
 }

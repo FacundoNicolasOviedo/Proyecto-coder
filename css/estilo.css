@@ -356,6 +356,10 @@ body {
   font-size: 1.2rem;
   text-align: center;
 }
+.main .main__parrafoMain .main__parrafoMain__estiladoTexto {
+  color: red;
+  font-weight: bold;
+}
 .main .main__tituloMainDos {
   margin-bottom: 50px;
 }
@@ -388,6 +392,10 @@ body {
 .mainEquipo .mainEquipo__jugadores__estiloParrafo {
   font-family: "Roboto", sans-serif;
 }
+.mainEquipo .mainEquipo__jugadores__estiloParrafo .mainEquipo__jugadores__estiloParrafo__estiloNombre {
+  color: red;
+  font-weight: bold;
+}
 
 .main__eventos__titulo {
   font-family: "Times New Roman", Times, serif;
@@ -415,6 +423,8 @@ body {
   margin-left: 120px;
 }
 .main__eventos__estiloTexto .main__eventos__estiloCard .main__eventos__parrafo1 {
+  color: red;
+  font-weight: bold;
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 25px;
@@ -467,6 +477,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
   color: yellow;
+}
+.mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__estilo {
+  color: red;
 }
 .mainNoticias .mainNoticias__imagenes .mainNoticias__imagenes__parrafo {
   font-family: "Roboto", sans-serif;

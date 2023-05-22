@@ -13,6 +13,10 @@
             color: white;
             font-size: 1.2rem;
             text-align: $textoCentrado;
+            .main__parrafoMain__estiladoTexto{
+                color: map-get($map: $color, $key: hover);
+                font-weight: bold;
+            }
         }
     
         .main__tituloMainDos {
